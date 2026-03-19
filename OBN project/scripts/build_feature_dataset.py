@@ -75,7 +75,7 @@ df["label"] = labels
 OUT_CSV.parent.mkdir(parents=True, exist_ok=True)
 df.to_csv(OUT_CSV, index=False)
 
-print("\nDay-2 feature dataset built successfully")
+print("\nDay-1 feature dataset built successfully")
 print("Saved to:", OUT_CSV)
 print("Shape:", df.shape)
 print("\nSamples per class:")

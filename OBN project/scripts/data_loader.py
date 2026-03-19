@@ -15,7 +15,6 @@ def load_adc_fft(file_path, samples_per_measurement=8192, start_index=300):
             if not line:
                 continue
 
-            # split by tab first; if needed you can change to .split()
             parts = line.split("\t")
 
             for x in parts:
